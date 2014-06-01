@@ -1,12 +1,12 @@
 var gm     = require('gm').subClass({ imageMagick: true });
-var inbox    = require('inbox'); 
-var security = require('./secret');
+var inbox  = require('inbox'); 
+var secret = require('./secret');
 
 var client = inbox.createConnection(false, 'imap.gmail.com', {
   secureConnection: true,
     auth:{
-      user: security.gmail.mail,
-      pass: security.gmail.pass 
+      user: secret.gmail.mail,
+      pass: secret.gmail.pass 
     }
 });
 
@@ -25,18 +25,18 @@ client.on('close', function (){
 
 client.on('new', function(message){
   console.log('New incoming message ' + message.title);
-  if(message.from['address'] == security.app.acceptEmail) {
+  if(message.from['address'] == secret.app.acceptEmail) {
     GenerateImage(message.title);
   }
 });
 
 var twitterAPI = require('node-twitter-api');
 var twitter = new twitterAPI({
-  consumerKey: security.twitter.consumerKey,
-  consumerSecret: security.twitter.consumerSecret
+  consumerKey    : secret.twitter.consumerKey,
+  consumerSecret : secret.twitter.consumerSecret
 });
-var	accessToken = security.twitter.accessToken;
-var	accessTokenSecret = security.twitter.accessTokenSecret;
+var	accessToken       = secret.twitter.accessToken;
+var	accessTokenSecret = secret.twitter.accessTokenSecret;
 
 function GenerateImage(text) {
   text = text || '';
