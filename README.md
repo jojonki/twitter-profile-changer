@@ -8,6 +8,13 @@ This app changes your twitter profile image when you get an email. Node.js is ve
 Usage
 ------
 
+1. Install usuful plugins. If you have some encoding troubles, please try to install iconv library. It may help your character problems.
+
+ ``` perl
+$ npm install gm
+$ npm install inbox
+$ npm install iconv
+```
 1. create your security file as 'security.js'.
  
  ```javascript
@@ -30,8 +37,8 @@ module.exports = {
 }
 ```
 1. set your favorite font file in font/. 
-1. modify pic/jonki.png to png file what you want to use
-1. modify imagemagick code in app.js
+1. modify pic/jonki.png to png file what you want to use.
+1. modify imagemagick code in app.js.
 1. just do it!
 ```
 $ node app.js
