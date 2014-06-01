@@ -7,7 +7,8 @@ Usage
 ------
 
 1. create your security file as 'security.js'.
-```javascript
+ 
+ ```javascript
 module.exports = {
   "twitter" : {
       "consumerKey"       : "xxxx",
@@ -26,10 +27,10 @@ module.exports = {
   } 
 }
 ```
-
-2. set your favorite font file in font/. 
-
-3. just do it!
+1. set your favorite font file in font/. 
+1. modify pic/jonki.png to png file what you want to use
+1. modify imagemagick code in app.js
+1. just do it!
 ```
 $ node app.js
 ```
