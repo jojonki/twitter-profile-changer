@@ -1,6 +1,8 @@
 Twitter Profile Changer
 ======================
 
+![before-after](https://pbs.twimg.com/media/BpDUoWeCIAAv2GV.png "before-after")
+
 This app changes your twitter profile image when you get an email. Node.js is very powerful, which enables imap monitor and imagemagick in this app. app.js monitors email's title and put it to your twitter profile image with imagemagick. If you want to know more details, please visit my article below reference.
 
 Usage
