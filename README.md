@@ -40,7 +40,8 @@ module.exports = {
 1. modify pic/jonki.png to png file what you want to use.
 1. modify imagemagick code in app.js.
 1. just do it!
-```
+ 
+ ```
 $ node app.js
 ```
 
