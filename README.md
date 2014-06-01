@@ -44,6 +44,10 @@ Reference
 -  [Node.jsでGmailを監視してTwitterのプロフィール画像を動的に変更する,  The Jonki](http://www.jonki.net/entry/2014/05/11/022046, "Node.jsでGmailを監視してTwitterのプロフィール画像を動的に変更する")
 
 
+Contact
+------
+
+- [twitter/jojonki](https://twitter.com/jojonki)
 
 License
 ----------
