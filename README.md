@@ -49,7 +49,7 @@ $ node app.js
 Reference
 -------
 
--  [Node.jsでGmailを監視してTwitterのプロフィール画像を動的に変更する,  The Jonki](http://www.jonki.net/entry/2014/05/11/022046, "Node.jsでGmailを監視してTwitterのプロフィール画像を動的に変更する")
+-  [Node.jsでGmailを監視してTwitterのプロフィール画像を動的に変更する. The Jonki](http://www.jonki.net/entry/2014/05/11/022046)
 
 
 Contact
